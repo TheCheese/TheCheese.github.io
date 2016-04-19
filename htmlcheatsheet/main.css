@@ -1,0 +1,46 @@
+* {
+margin: 0;
+border: 0;
+padding: 0;
+}
+
+#wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#nav {
+    width: 1200px;
+    background-color: #D9853B;
+}
+
+#content {
+    background-color: #ECECEA;
+    margin: 0 auto;
+    text-align: left
+}
+
+.box {
+    text-align: center;
+    width: 300px;
+    background-color: white;
+    display: inline-block;
+    margin: 0px 50px 0px 50px;
+}
+
+.break {
+    height: 20px; 
+}
+
+ul {
+    
+}
+
+li {
+    list-style: none;
+}
+
+.navLi {
+    display: inline-block;
+}
