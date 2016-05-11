@@ -1,0 +1,77 @@
+// imports
+@import '_reset';
+
+
+//defining variables
+
+//colors
+$primary-color: #FF680A; //orange dream
+$secondary-color: #27aca1; //aqua ish
+$third-color: goldenrod; // self explanatory
+$fourth-color: #EFCC00; //similar to goldenrod
+$bg-color: white; //#505050; dark greyish blackish
+
+//code
+    
+/* edit these if u need to 
+
+* {
+    
+}
+    
+*/
+
+body {
+    background-color: $bg-color;
+        
+}
+
+    
+
+#wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    
+}
+
+section {
+    float: left;
+    border: collapse;
+}
+
+header{
+    
+    #navbarTop{
+        background-color: goldenrod;
+    }
+    
+    #navbarBottom {
+        background-color: $fourth-color;
+    }
+        
+}
+
+#contentWrapper {
+    
+    #topLeft {
+        background-color: $primary-color;
+        width: 400px;
+    }
+    
+    #midLeft {
+        width: 400px;
+    }
+    
+    #mainMid {
+        width: 800px;
+        float: right;
+    }
+    
+    #bottomMid {
+        background-color: $secondary-color;
+    }
+    
+    #bottomRight {
+        
+    }
+}
