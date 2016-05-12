@@ -57,8 +57,7 @@ body {
 
 #wrapper {
   width: 1200px;
-  margin: 0 auto;
-  overflow: hidden; }
+  margin: 0 auto; }
 
 section {
   border: collapse; }
@@ -68,14 +67,21 @@ header #navbarTop {
 header #navbarBottom {
   background-color: #EFCC00; }
 
+#contentWrapper #leftside {
+  float: left; }
+#contentWrapper #rightside {
+  overflow: hidden; }
 #contentWrapper #topLeft {
   background-color: #FF680A;
   width: 400px;
-  height: 300px; }
+  height: 300px;
+  overflow: hidden;
+  margin: 0; }
 #contentWrapper #midLeft {
   width: 400px;
   height: 700px;
-  background-color: aqua; }
+  background-color: aqua;
+  overflow: hidden; }
 #contentWrapper #mainMid {
   width: 800px;
   height: 800px;
