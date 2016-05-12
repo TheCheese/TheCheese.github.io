@@ -57,10 +57,10 @@ body {
 
 #wrapper {
   width: 1200px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  overflow: hidden; }
 
 section {
-  float: left;
   border: collapse; }
 
 header #navbarTop {
@@ -70,13 +70,27 @@ header #navbarBottom {
 
 #contentWrapper #topLeft {
   background-color: #FF680A;
-  width: 400px; }
+  width: 400px;
+  height: 300px; }
 #contentWrapper #midLeft {
-  width: 400px; }
+  width: 400px;
+  height: 700px;
+  background-color: aqua; }
 #contentWrapper #mainMid {
   width: 800px;
-  float: right; }
+  height: 800px;
+  background-color: blueviolet;
+  float: right;
+  position: static; }
 #contentWrapper #bottomMid {
-  background-color: #27aca1; }
+  background-color: #27aca1;
+  width: 600px;
+  height: 200px;
+  float: right; }
+#contentWrapper #bottomRight {
+  width: 200px;
+  background-color: aquamarine;
+  height: 200px;
+  float: right; }
 
 /*# sourceMappingURL=main.css.map */

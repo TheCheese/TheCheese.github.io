@@ -31,11 +31,12 @@ body {
 #wrapper {
     width: 1200px;
     margin: 0 auto;
+    overflow: hidden;
     
 }
 
 section {
-    float: left;
+
     border: collapse;
 }
 
@@ -56,22 +57,37 @@ header{
     #topLeft {
         background-color: $primary-color;
         width: 400px;
+        height: 300px;
+
     }
     
     #midLeft {
         width: 400px;
+        height: 700px;
+        background-color: aqua;
+
     }
     
     #mainMid {
         width: 800px;
+        height: 800px;
+        background-color: blueviolet;
         float: right;
+        position: static;
     }
     
     #bottomMid {
         background-color: $secondary-color;
+        width: 600px;
+        height: 200px;
+        float: right;
+
     }
     
     #bottomRight {
-        
+        width: 200px;
+        background-color: aquamarine;
+        height: 200px;
+        float: right;
     }
 }
