@@ -80,10 +80,31 @@ header #navbarBottom {
 #contentWrapper #midLeft {
   width: auto;
   height: 70%; }
+  #contentWrapper #midLeft img {
+    max-width: inherit;
+    height: auto; }
 #contentWrapper #mainMid {
   width: 100%;
   height: 80%;
   float: right; }
+  #contentWrapper #mainMid #slideshow {
+    width: 100%;
+    height: 100%;
+    background-color: antiquewhite;
+    float: inherit; }
+  #contentWrapper #mainMid #slideshow img {
+    min-width: 56%;
+    max-width: 56% !important;
+    height: auto;
+    min-height: 80% !important;
+    max-height: 80% !important;
+    position: absolute;
+    z-index: 8;
+    object-fit: fill; }
+  #contentWrapper #mainMid #slideshow img.active {
+    z-index: 10; }
+  #contentWrapper #mainMid #slideshow img.last-active {
+    z-index: 9; }
 #contentWrapper #bottomMid {
   background-color: #27aca1;
   width: 40%;

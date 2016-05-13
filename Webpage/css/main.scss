@@ -72,12 +72,43 @@ header{
     #midLeft {
         width: auto;
         height: 70%;
+        
+        img {
+            max-width: inherit;
+            height: auto
+        }
     }
     
     #mainMid {
         width: 100%;
         height: 80%;
         float: right;
+        
+        #slideshow {
+            width: 100%;
+            height: 100%;
+            background-color: antiquewhite;
+            float: inherit;
+        }
+
+        #slideshow img {
+            min-width: 56%;
+            max-width: 56% !important;
+            height: auto;
+            min-height: 80% !important;
+            max-height: 80% !important;
+            position: absolute;
+            z-index:8;
+            object-fit: fill;
+        }
+        
+        #slideshow img.active {
+            z-index: 10;
+        }
+        
+        #slideshow img.last-active {
+            z-index: 9;
+        }
     }
     
     #bottomMid {
