@@ -2,7 +2,7 @@ $(document).ready(function() {
     //menu opener
     $("#navbarBottom").hide();
     $("#navbarTopLi1").click(function() {
-        $("#navbarBottom").slideToggle(1000,"linear");
+        $("#navbarBottom").slideToggle("slow");
     });
     
     //centers top image logo
