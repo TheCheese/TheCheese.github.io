@@ -85,6 +85,7 @@ header #navbarBottom {
   width: auto;
   height: 30%; }
 #contentWrapper #midLeft {
+  background-color: #27aca1;
   width: auto;
   height: 70%; }
   #contentWrapper #midLeft img {
@@ -113,16 +114,18 @@ header #navbarBottom {
   #contentWrapper #mainMid #slideshow img.last-active {
     z-index: 9; }
 #contentWrapper #bottomMid {
-  background-color: #27aca1;
-  width: 40%;
-  height: 20%;
-  float: right; }
-#contentWrapper #bottomRight {
+  background-color: white;
   width: 60%;
+  height: 20%;
+  float: left; }
+#contentWrapper #bottomRight {
+  background-color: grey;
+  width: 40%;
   height: 20%;
   float: right; }
 
 footer {
-  clear: both; }
+  clear: both;
+  background-color: goldenrod; }
 
 /*# sourceMappingURL=main.css.map */

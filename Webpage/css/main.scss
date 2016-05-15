@@ -5,11 +5,13 @@
 //defining variables
 
 //colors
-$primary-color: #FF680A; //orange dream
-$secondary-color: #27aca1; //aqua ish
-$third-color: goldenrod; // self explanatory
-$fourth-color: #EFCC00; //similar to goldenrod
-$text-color: black; //easy to change
+$info-color-one: #FF680A; // top left info box
+$info-color-two: #27aca1; // middle left info box
+$info-color-three: white; // bottom middle info box
+$info-color-four: grey; // bottom right info box
+$pane-color: goldenrod; // top and bottom bars
+$menu-color: #EFCC00; //menu color
+$text-color: black; //text color
 $bg-color: white; //#505050; dark greyish blackish
 
 //code
@@ -43,11 +45,11 @@ a i {
 header{
     
     #navbarTop{
-        background-color: goldenrod;
+        background-color: $pane-color;
     }
     
     #navbarBottom {
-        background-color: $fourth-color;
+        background-color: $menu-color;
         position: absolute;
         width: 25%;
         padding-bottom: 10px;
@@ -70,12 +72,13 @@ header{
     }
     
     #topLeft {
-        background-color: $primary-color;
+        background-color: $info-color-one;
         width: auto;
         height: 30%;
     }
     
     #midLeft {
+        background-color: $info-color-two;
         width: auto;
         height: 70%;
         
@@ -118,15 +121,16 @@ header{
     }
     
     #bottomMid {
-        background-color: $secondary-color;
-        width: 40%;
+        background-color: $info-color-three;
+        width: 60%;
         height: 20%;
-        float: right;
+        float: left;
 
     }
     
     #bottomRight {
-        width: 60%;
+        background-color: $info-color-four;
+        width: 40%;
         height: 20%;
         float: right;
     }
@@ -134,4 +138,5 @@ header{
 
 footer {
     clear: both;
+    background-color: $pane-color;
 }
