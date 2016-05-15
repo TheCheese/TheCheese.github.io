@@ -45,15 +45,14 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-/* edit these if u need to 
-
 * {
-    
-}
-    
-*/
+  color: black; }
+
 body {
   background-color: white; }
+
+strong {
+  font-size: 0px; }
 
 #wrapper {
   width: 80%;
@@ -62,10 +61,18 @@ body {
 section {
   border: collapse; }
 
+a i {
+  color: black; }
+
 header #navbarTop {
   background-color: goldenrod; }
 header #navbarBottom {
-  background-color: #EFCC00; }
+  background-color: #EFCC00;
+  position: absolute;
+  width: 25%;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 10px; }
 
 #contentWrapper #leftside {
   width: 30%;

@@ -9,23 +9,22 @@ $primary-color: #FF680A; //orange dream
 $secondary-color: #27aca1; //aqua ish
 $third-color: goldenrod; // self explanatory
 $fourth-color: #EFCC00; //similar to goldenrod
+$text-color: black; //easy to change
 $bg-color: white; //#505050; dark greyish blackish
 
 //code
-    
-/* edit these if u need to 
 
 * {
-    
+    color: $text-color;
 }
-    
-*/
 
 body {
     background-color: $bg-color;
         
 }
-
+strong {
+    font-size: 0px;
+}
     
 
 #wrapper {
@@ -38,7 +37,9 @@ section {
 
     border: collapse;
 }
-
+a i {
+    color: $text-color;
+}
 header{
     
     #navbarTop{
@@ -47,6 +48,11 @@ header{
     
     #navbarBottom {
         background-color: $fourth-color;
+        position: absolute;
+        width: 25%;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        padding-left: 10px;
     }
         
 }
