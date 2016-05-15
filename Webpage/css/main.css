@@ -66,6 +66,27 @@ a i {
 
 header #navbarTop {
   background-color: goldenrod; }
+  header #navbarTop ul {
+    width: 100%; }
+    header #navbarTop ul li {
+      display: inline-block; }
+    header #navbarTop ul #navbarTopLi1 {
+      margin-left: 1%;
+      width: 32%; }
+    header #navbarTop ul #navbarTopLi2 {
+      float: right;
+      clear: none;
+      width: 33%;
+      margin-right: 0.5%; }
+      header #navbarTop ul #navbarTopLi2 img {
+        height: 47px;
+        width: 55px; }
+    header #navbarTop ul #navbarTopLi3 {
+      float: right;
+      clear: none;
+      text-align-last: right;
+      margin-right: 1%;
+      width: 32%; }
 header #navbarBottom {
   background-color: #EFCC00;
   position: absolute;

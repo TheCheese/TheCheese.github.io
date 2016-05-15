@@ -46,7 +46,36 @@ header{
     
     #navbarTop{
         background-color: $pane-color;
+        ul {
+            width: 100%;
+            li {
+                display: inline-block;
+            }
+            #navbarTopLi1 {
+                
+                margin-left: 1%;
+                width: 32%;
+            }
+            #navbarTopLi2 {
+                float: right;
+                clear: none;
+                width: 33%;
+                margin-right: 0.5%;
+                    img {
+                        height: 47px;
+                        width: 55px;
+                    }
+            }
+            #navbarTopLi3 {
+                float: right;
+                clear: none;
+                text-align-last: right;
+                margin-right: 1%;
+                width: 32%
+            }
+        }
     }
+    
     
     #navbarBottom {
         background-color: $menu-color;
@@ -60,7 +89,6 @@ header{
 }
 
 #contentWrapper {
-    
     #leftside {
         width: 30%;
         float: left;

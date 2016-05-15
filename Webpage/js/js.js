@@ -5,6 +5,17 @@ $(document).ready(function() {
         $("#navbarBottom").slideToggle();
     });
     
+    //centers top image logo
+    $(function() {
+        function centerImage() {
+            var liWidth=$("#navbarTopLi2").width();
+            var imgWidth=$("#topImage").width();
+            var leftMargin=Math.floor((liWidth-imgWidth)/2)+"px";
+            $("#topImage").css("margin-left",leftMargin);
+        }
+        setInterval(centerImage, 100)
+    });
+    
     //image switcher
     $(function(){
        function slideSwitch(){
