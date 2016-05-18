@@ -9,6 +9,7 @@ $info-color-one: #FF680A; // top left info box
 $info-color-two: #27aca1; // middle left info box
 $info-color-three: white; // bottom middle info box
 $info-color-four: grey; // bottom right info box
+$info-color-main: #167618; // main box
 $pane-color: goldenrod; // top and bottom bars
 $menu-color: #EFCC00; //menu color
 $text-color: black; //text color
@@ -50,6 +51,8 @@ header{
             width: 100%;
             li {
                 display: inline-block;
+                vertical-align: middle;
+                
             }
             #navbarTopLi1 {
                 
@@ -71,7 +74,11 @@ header{
                 clear: none;
                 text-align: right;
                 margin-right: 1%;
-                width: 32%
+                width: 32%;
+                height: 47px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
             }
         }
     }
@@ -120,7 +127,7 @@ header{
         width: 100%;
         height: 80%;
         float: right;
-        
+        background-color: $info-color-main;
         #slideshow {
             width: 100%;
             height: 100%;
