@@ -26,7 +26,7 @@ body {
 }
 strong {
     color: $bg-color;
-    font-size: 10px;
+    font-size: 0px;
 }
     
 
@@ -81,10 +81,11 @@ header{
     #navbarBottom {
         background-color: $menu-color;
         position: absolute;
-        width: 25%;
+        z-index: 12;
+        width: 28%;
         padding-bottom: 10px;
         padding-top: 10px;
-        padding-left: 10px;
+        padding-left: 2%;
     }
         
 }

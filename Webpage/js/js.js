@@ -37,4 +37,35 @@ $(document).ready(function() {
       }
       setInterval(slideSwitch, 5000 );
     });
+    
+    //page refitter when view on narrow devices
+    $(function(){
+        function shrink() {
+            $("#leftSide").css("width","100%");
+            $("#rightSide").css("width","100%");
+            $("#bottomMid").css("width","100%");
+            $("#bottomRight").css("width","100%");
+            $("#slideshow img").css("min-width","100%");
+            $("#slideshow img").css("max-width","100%");
+            $("#slideshow img").css("width","100%");
+        }
+        function grow() {
+            $("#leftSide").css("width","30%");
+            $("#rightSide").css("width","70%");
+            $("#bottomMid").css("width","60%");
+            $("#bottomRight").css("width","40%");
+            $("#slideshow img").css("min-width","70%");
+            $("#slideshow img").css("max-width","70%");
+            $("#slideshow img").css("width","70%");
+        }
+        function resizeCheck() {
+            if(window.innerWidth<800) {
+                shrink();
+            }
+            else {
+                grow();
+            }
+        }
+        setInterval(resizeCheck, 10);
+    });
 });
