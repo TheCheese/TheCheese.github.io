@@ -69,17 +69,5 @@ $(document).ready(function() {
         setInterval(resizeCheck, 10);
     });
     
-    $(function() {
-          
-        $( "#topLeftShown" ).mouseover(function() {
-            $( "#topLeftShown" ).fadeOut( "slow", function(){
-                $( "#topLeftHidden" ).fadeIn( "slow" );
-            });
-        });
     
-        $( "#topLeftHidden" ).mouseleave(function() {
-            $( "#topLeftHidden" ).fadeOut( "slow", function(){
-                $( "#topLeftShown" ).fadeIn( "slow" );
-            }); 
-        });
 });
