@@ -78,7 +78,8 @@ $(document).ready(function() {
         });
     
         $( "#topLeftHidden" ).mouseleave(function() {
-        $( "#topLeftHidden" ).fadeOut( "slow", function(){
-        $( "#topLeftShown" ).fadeIn( "slow" );
-    }); 
-      });
+            $( "#topLeftHidden" ).fadeOut( "slow", function(){
+                $( "#topLeftShown" ).fadeIn( "slow" );
+            }); 
+        });
+});
