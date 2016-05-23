@@ -80,4 +80,3 @@ $(document).ready(function() {
     $( "#topLeftHidden" ).fadeOut( "slow", function(){
        $( "#topLeftShown" ).fadeIn( "slow" );
       });
-});
