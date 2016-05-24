@@ -2,6 +2,7 @@ $(document).ready(function() {
     //menu opener
     $("#navbarBottom").hide();
     $("#navbarTopLi1").click(function() {
+        $("#navbarBottom").height(function (_, h) { return h; });
         $("#navbarBottom").slideToggle("slow");
     });
     
