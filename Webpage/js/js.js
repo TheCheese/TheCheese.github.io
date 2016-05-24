@@ -2,7 +2,8 @@ $(document).ready(function() {
     //menu opener
     $("#navbarBottom").hide();
     $("#navbarTopLi1").click(function() {
-        $("#navbarBottom").height(function (_, h) { return h; });
+        var div = $("#navbarBottom").height();
+        $("#navbarBottom").css('height', div);
         $("#navbarBottom").slideToggle("slow");
     });
     
