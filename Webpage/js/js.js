@@ -5,17 +5,6 @@ $(document).ready(function() {
         $("#navbarBottom").slideToggle("slow");
     });
     
-    //centers top image logo
-    $(function() {
-        function centerImage() {
-            var liWidth=$("#navbarTopLi2").width();
-            var imgWidth=$("#topImage").width();
-            var leftMargin=Math.floor((liWidth-imgWidth)/2)+"px";
-            $("#topImage").css("margin-left",leftMargin);
-        }
-        setInterval(centerImage, 100)
-    });
-    
     //image switcher
     $(function(){
        function slideSwitch(){
@@ -68,19 +57,5 @@ $(document).ready(function() {
         }
         setInterval(resizeCheck, 10);
     });
-    
-    $(function () {
-    $( "#topLeftShown" ).mouseover(function() {
-        $( "#topLeftShown" ).fadeOut( "slow", function(){
-            $( "#topLeftHidden" ).fadeIn( "slow" );
-        });
-    });
-
-    $( "#topLeftHidden" ).mouseleave(function() {
-        $( "#topLeftHidden" ).fadeOut( "slow", function(){
-            $( "#topLeftShown" ).fadeIn( "slow" );
-        }); 
-    });
-});
     
 });
