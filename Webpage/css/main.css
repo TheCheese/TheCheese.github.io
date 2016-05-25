@@ -90,12 +90,9 @@ header #navbarTop {
       width: 32%; }
 header #navbarBottom {
   background-color: #EFCC00;
-  position: fixed;
+  position: absolute;
   z-index: 12;
-  width: 100%;
-  min-width: 100% !important;
-  height: 100%;
-  min-height: 100% !important;
+  min-width: 100%;
   opacity: 0.85; }
 
 #contentWrapper #leftside {
