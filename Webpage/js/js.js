@@ -1,4 +1,32 @@
 $(document).ready(function() {
+    
+    //div hider and shower
+    $(function() {
+        $("#topLeftHidden").hide();
+        $("#midLeftHidden").hide();
+        $("#bottomMidHidden").hide();
+        $("#bottomRightHidden").hide();
+        $("section").mouseenter(function() {
+            var ID = $(this).attr("id");
+            var hideID = "#" + ID + "Shown";
+            var showID = "#" + ID + "Hidden";
+            $(hideID).fadeOut(300);
+            setTimeout(function(){
+                $(showID).fadeIn();
+            },400);
+            
+        });
+        $("section").mouseleave(function() {
+            var ID = $(this).attr("id");
+            var showID = "#" + ID + "Shown";
+            var hideID = "#" + ID + "Hidden";
+            $(hideID).fadeOut(300);
+            setTimeout(function(){
+                $(showID).fadeIn();
+            },400);
+        });
+    });
+    
     //menu opener
     $("#navbarBottom").hide();
     $("#navbarTopLi1").click(function() {
