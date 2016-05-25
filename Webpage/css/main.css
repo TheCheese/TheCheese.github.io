@@ -89,11 +89,12 @@ header #navbarTop {
       margin-right: 1%;
       width: 32%; }
 header #navbarBottom {
-  background-color: #EFCC00;
+  background-color: goldenrod;
   position: absolute;
   z-index: 12;
   min-width: 100%;
-  opacity: 0.85; }
+  opacity: 0.85;
+  text-align: center; }
 
 #contentWrapper #leftside {
   width: 30%;

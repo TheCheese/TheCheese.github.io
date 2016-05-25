@@ -79,11 +79,24 @@ header{
     
     
     #navbarBottom {
-        background-color: $menu-color;
+        background-color: $pane-color;
         position: absolute;
         z-index: 12;
         min-width: 100%;
         opacity: 0.85;
+        text-align: center;
+        
+        .navbarBottomNav {
+            
+        }
+        
+        .navReferences {
+            
+        }
+        
+        .navAuthors {
+            
+        }
     }
         
 }
