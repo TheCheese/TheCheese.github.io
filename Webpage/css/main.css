@@ -95,6 +95,13 @@ header #navbarBottom {
   min-width: 100%;
   opacity: 0.85;
   text-align: center; }
+  header #navbarBottom #navLogo {
+    width: 20%;
+    max-width: 20%;
+    height: 20%;
+    max-height: 20% !important; }
+    header #navbarBottom #navLogo img {
+      opacity: 1; }
 
 #contentWrapper #leftside {
   width: 30%;
@@ -162,6 +169,7 @@ header #navbarBottom {
 
 footer {
   clear: both;
-  background-color: goldenrod; }
+  background-color: white;
+  text-align: center; }
 
 /*# sourceMappingURL=main.css.map */

@@ -97,6 +97,20 @@ header{
         .navAuthors {
             
         }
+        
+        #navLogo {
+             
+            width: 20%;
+            max-width: 20%;
+            height: 20%;
+            max-height: 20% !important;
+            
+            
+            img {
+                opacity: 1;
+            }
+        
+        } 
     }
         
 }
@@ -214,5 +228,6 @@ header{
 
 footer {
     clear: both;
-    background-color: $pane-color;
+    background-color: $bg-color;
+    text-align: center;
 }
