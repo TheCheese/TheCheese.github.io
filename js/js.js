@@ -30,7 +30,7 @@ $(document).ready(function() {
     //menu opener
     $("#navbarBottom").hide();
     $("#navbarTopLi1").click(function() {
-        var x = window.innerHeight;
+        var x = $(document).height();
         $("#navbarBottom").css("height", x);
         $("#navbarBottom").slideToggle("slow");
     });
