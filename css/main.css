@@ -45,6 +45,9 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+@font-face {
+  font-family: SScript;
+  src: url("../fonts/script.ttf"); }
 * {
   color: black; }
 
@@ -136,15 +139,32 @@ header #navbarBottom {
     height: inherit;
     width: inherit;
     position: absolute;
+    text-align: center;
     top: 0;
     left: 0;
     z-index: 10; }
+    #contentWrapper #topLeft #topLeftShown h2 {
+      height: inherit;
+      width: inherit;
+      margin: 0 auto;
+      font-size: 4vw;
+      font-family: SScript; }
   #contentWrapper #topLeft #topLeftHidden {
-    height: inherit;
-    width: inherit;
+    height: 30%;
+    width: auto;
     position: absolute;
     top: 0;
     left: 0; }
+    #contentWrapper #topLeft #topLeftHidden h2 {
+      height: inherit;
+      width: inherit;
+      margin: 0 auto;
+      font-size: 4vw;
+      font-family: SScript;
+      text-decoration: none; }
+      #contentWrapper #topLeft #topLeftHidden h2 a:hover {
+        color: white;
+        text-decoration: none; }
 #contentWrapper #midLeft {
   background-image: url("../img/stakeholder.png");
   background-size: contain;

@@ -1,6 +1,10 @@
 // imports
 @import '_reset';
 
+@font-face {
+    font-family: SScript;
+    src: url('../fonts/script.ttf')
+}
 
 //defining variables
 
@@ -161,33 +165,47 @@ header{
             height: inherit;
             width: inherit;
             position: absolute;
+            text-align: center;
             top: 0;
             left: 0;
             z-index: 10;
             
-            dataSpan {
-                
+            h2 {
+                height: inherit;
+                width: inherit;
+                margin: 0 auto;
+                font-size: 4vw;
+                font-family: SScript;
             }
             
-            isSpan {
+            span {
                 
             }
         }
         
         #topLeftHidden {
-            height: inherit;
-            width: inherit;
+            height: 30%;
+            width: auto;
             position: absolute;
             top: 0;
             left: 0;
             
-            dataSpanHidden {
+            h2 {
+                                height: inherit;
+                width: inherit;
+                margin: 0 auto;
+                font-size: 4vw;
+                font-family: SScript;
+                text-decoration: none;
+                
+                a:hover {
+                    color: $bg-color;
+                    text-decoration: none;
+                }
                 
             }
             
-            isSpanHidden {
-                
-            }
+
         }
     }
     
