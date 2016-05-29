@@ -247,6 +247,15 @@ header{
         float: left;
         font-size: 1vw;
     }
+    #bottomMidB {
+        width: 100%;
+        background-color: $info-color-two;
+        height: 20%;
+        clear: both;
+        font-size: 1vw;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
     
     #bottomRight {
         background-color: $bg-color;

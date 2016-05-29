@@ -192,6 +192,14 @@ header #navbarBottom {
   height: 20%;
   float: left;
   font-size: 1vw; }
+#contentWrapper #bottomMidB {
+  width: 100%;
+  background-color: #27aca1;
+  height: 20%;
+  clear: both;
+  font-size: 1vw;
+  padding-left: 10px;
+  padding-right: 10px; }
 #contentWrapper #bottomRight {
   background-color: white;
   width: 40%;
