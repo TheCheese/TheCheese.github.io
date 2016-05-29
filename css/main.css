@@ -66,7 +66,8 @@ a i {
   color: black; }
 
 header #navbarTop {
-  background-color: goldenrod; }
+  background-color: goldenrod;
+  height: 7.5%; }
   header #navbarTop ul {
     width: 100%; }
     header #navbarTop ul li {
@@ -93,13 +94,30 @@ header #navbarBottom {
   position: absolute;
   z-index: 12;
   min-width: 100%;
-  opacity: 0.85;
+  opacity: 0.9;
   text-align: center; }
+  header #navbarBottom .navbarBottomNav {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 2vw;
+    color: white;
+    list-style: none; }
+    header #navbarBottom .navbarBottomNav #navbarLastWrap li {
+      display: inline-block; }
+    header #navbarBottom .navbarBottomNav .navbarLinkLi {
+      text-decoration: none;
+      list-style: none;
+      padding: 2% 0 2% 0;
+      text-transform: uppercase; }
+    header #navbarBottom .navbarBottomNav .navbarLinkLi a {
+      text-decoration: none;
+      color: white; }
+  header #navbarBottom .navReferences {
+    padding-top: 2%; }
+  header #navbarBottom .navAuthors {
+    padding-top: 2%;
+    padding-bottom: 1.3%; }
   header #navbarBottom #navLogo {
-    width: 20%;
-    max-width: 20%;
-    height: 20%;
-    max-height: 20% !important; }
+    margin: 0 auto; }
     header #navbarBottom #navLogo img {
       opacity: 1; }
 
