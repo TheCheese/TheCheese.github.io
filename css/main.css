@@ -155,16 +155,6 @@ header #navbarBottom {
     position: absolute;
     top: 0;
     left: 0; }
-    #contentWrapper #topLeft #topLeftHidden h2 {
-      height: inherit;
-      width: inherit;
-      margin: 0 auto;
-      font-size: 4vw;
-      font-family: SScript;
-      text-decoration: none; }
-      #contentWrapper #topLeft #topLeftHidden h2 a:hover {
-        color: white;
-        text-decoration: none; }
 #contentWrapper #midLeft {
   background-image: url("../img/stakeholder.png");
   background-size: contain;
@@ -204,6 +194,16 @@ header #navbarBottom {
   width: 40%;
   height: 20%;
   float: right; }
+#contentWrapper h2 {
+  height: inherit;
+  width: inherit;
+  margin: 0 auto;
+  font-size: 4vw;
+  font-family: SScript;
+  text-decoration: none; }
+  #contentWrapper h2 a:hover {
+    color: white;
+    text-decoration: none; }
 
 footer {
   clear: both;
