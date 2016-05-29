@@ -189,6 +189,10 @@ header{
             position: absolute;
             top: 0;
             left: 0;
+            
+            h2 {
+                font-size: 4vw;
+            }
 
         }
     }
@@ -241,7 +245,7 @@ header{
         width: 60%;
         height: 20%;
         float: left;
-
+        font-size: 1vw;
     }
     
     #bottomRight {
@@ -249,13 +253,14 @@ header{
         width: 40%;
         height: 20%;
         float: right;
+        font-size: 1vw;
     }
     
                 h2 {
                                 height: inherit;
                 width: inherit;
                 margin: 0 auto;
-                font-size: 4vw;
+                font-size: 2vw;
                 font-family: SScript;
                 text-decoration: none;
                 

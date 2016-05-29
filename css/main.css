@@ -155,6 +155,8 @@ header #navbarBottom {
     position: absolute;
     top: 0;
     left: 0; }
+    #contentWrapper #topLeft #topLeftHidden h2 {
+      font-size: 4vw; }
 #contentWrapper #midLeft {
   background-image: url("../img/stakeholder.png");
   background-size: contain;
@@ -188,17 +190,19 @@ header #navbarBottom {
   background-color: #27aca1;
   width: 60%;
   height: 20%;
-  float: left; }
+  float: left;
+  font-size: 1vw; }
 #contentWrapper #bottomRight {
   background-color: white;
   width: 40%;
   height: 20%;
-  float: right; }
+  float: right;
+  font-size: 1vw; }
 #contentWrapper h2 {
   height: inherit;
   width: inherit;
   margin: 0 auto;
-  font-size: 4vw;
+  font-size: 2vw;
   font-family: SScript;
   text-decoration: none; }
   #contentWrapper h2 a:hover {
