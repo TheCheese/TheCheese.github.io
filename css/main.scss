@@ -44,9 +44,12 @@ a i {
     color: $text-color;
 }
 header{
+
     
     #navbarTop{
         background-color: $pane-color;
+        height: 7.5%;
+        
         ul {
             width: 100%;
             li {
@@ -83,28 +86,49 @@ header{
         position: absolute;
         z-index: 12;
         min-width: 100%;
-        opacity: 0.85;
+        opacity: 0.9;
         text-align: center;
         
+        
         .navbarBottomNav {
+            font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+            font-size: 2vw;
+            color: $bg-color;
+            list-style: none;
+            
+            
+            #navbarLastWrap li {
+                display: inline-block;
+            }
+            
+            .navbarLinkLi {
+                text-decoration: none;
+                list-style: none;
+                padding: 2% 0 2% 0;
+                text-transform: uppercase;
+                
+
+            }
+            
+            .navbarLinkLi a {
+                text-decoration: none;
+                color: $bg-color;
+            }
             
         }
         
         .navReferences {
-            
+            padding-top: 2%;
         }
         
         .navAuthors {
-            
+            padding-top: 2%;
+            padding-bottom: 1.3%;
         }
         
         #navLogo {
-             
-            width: 20%;
-            max-width: 20%;
-            height: 20%;
-            max-height: 20% !important;
             
+            margin: 0 auto;
             
             img {
                 opacity: 1;
