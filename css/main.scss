@@ -60,26 +60,18 @@ header{
                 display: inline-block;
             }
             #navbarTopLi1 {
-                
+                a:hover {
+                    i {
+                        color:Chartreuse;
+                    }
+                }
+                a:active {
+                    i {
+                        color:Chartreuse;
+                    }
+                }
                 margin-left: 1%;
                 width: 32%;
-            }
-            #navbarTopLi2 {
-                float: right;
-                clear: none;
-                width: 33%;
-                margin-right: 0.5%;
-                    img {
-                        height: 47px;
-                        width: 55px;
-                    }
-            }
-            #navbarTopLi3 {
-                float: right;
-                clear: none;
-                text-align: right;
-                margin-right: 1%;
-                width: 32%
             }
         }
     }
@@ -117,6 +109,13 @@ header{
             .navbarLinkLi a {
                 text-decoration: none;
                 color: $bg-color;
+            }
+            .navbarLinkLi a:hover {
+                color: Chartreuse;
+            }
+            .navbarLinkLi a:active {
+                text-decoration: none;
+                color: Chartreuse;
             }
             
         }

@@ -78,20 +78,10 @@ header #navbarTop {
     header #navbarTop ul #navbarTopLi1 {
       margin-left: 1%;
       width: 32%; }
-    header #navbarTop ul #navbarTopLi2 {
-      float: right;
-      clear: none;
-      width: 33%;
-      margin-right: 0.5%; }
-      header #navbarTop ul #navbarTopLi2 img {
-        height: 47px;
-        width: 55px; }
-    header #navbarTop ul #navbarTopLi3 {
-      float: right;
-      clear: none;
-      text-align: right;
-      margin-right: 1%;
-      width: 32%; }
+      header #navbarTop ul #navbarTopLi1 a:hover i {
+        color: Chartreuse; }
+      header #navbarTop ul #navbarTopLi1 a:active i {
+        color: Chartreuse; }
 header #navbarBottom {
   background-color: goldenrod;
   position: absolute;
@@ -114,6 +104,11 @@ header #navbarBottom {
     header #navbarBottom .navbarBottomNav .navbarLinkLi a {
       text-decoration: none;
       color: white; }
+    header #navbarBottom .navbarBottomNav .navbarLinkLi a:hover {
+      color: Chartreuse; }
+    header #navbarBottom .navbarBottomNav .navbarLinkLi a:active {
+      text-decoration: none;
+      color: Chartreuse; }
   header #navbarBottom .navReferences {
     padding-top: 2%; }
   header #navbarBottom .navAuthors {
