@@ -1,0 +1,40 @@
+
+.menuBar{
+	width: 100% !important;
+}
+
+li {
+	list-style: none;
+}
+
+div, .container-fluid, .row, .col-12, button {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+.page {
+	min-height: 100vh;
+	max-height: 100vh;
+	width: 100% !important;
+	background-color: #2b3e50;
+	overflow-y: hidden;
+}
+
+h1, h2, h3, h4, h5, h6, p, a {
+	color: #ebebeb; 
+}
+
+.video-container {
+	max-width: 100%;
+	max-height: 100vh;
+	min-height: 100vh;
+	overflow: hidden;
+}
+
+video {
+	max-width: 100%;
+	max-height: 100vh;
+	min-height: 100vh;
+	overflow: hidden;
+}
