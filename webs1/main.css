@@ -1,0 +1,159 @@
+/* Major Selectors */
+
+html {
+  font-size: 18px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  color: #666;
+  background-color: #d3d3d3;
+  overflow-x: hidden !important;
+}
+
+.wrapper {
+  width: 100vw;
+}
+
+/* header Selectors */
+
+.header {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  background-image: url("log.jpeg");
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title-h1 {
+  width: 200px;
+  height: 100px;
+  text-align: center;
+  margin: -50px 0 0 -100px;
+  top: 50vh;
+  left: 50vw;
+  position: absolute;
+  cursor: pointer;
+  border: 1px solid white;
+  transition: border 0.3s ease-in-out;
+}
+
+.title-h1 h1 {
+  line-height: 0;
+  font-size: 24px;
+  padding: 50px;
+  color: white;
+}
+
+.title-h1:hover {
+  border: 1px solid #666;
+}
+
+/* amber */
+
+.amber {
+  background-image: url("amber.jpg");
+  min-width: 100%;
+  min-height: 150vh;
+  position: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.4;
+}
+
+/*END HEADER STYLES ************************************************************************ */
+
+.content-wrapper {}
+
+.one {
+  min-height: 200px;
+  width: 752px;
+  padding: 50px 20px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Lato", serif;
+  line-height: 2rem;
+  font-weight: 200;
+}
+
+.one h2 {
+  padding: 2rem 1.5rem;
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: 1.2rem;
+}
+
+.one p {
+  padding-bottom: 1.5rem;
+}
+
+.two {
+  margin: 0 auto;
+  width: 752px;
+  height: 400px;
+  background-image: url(axe.jpeg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top center;
+  filter: brightness(0.7);
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.two h2 {
+  font-family: "Lato", serif;
+  font-weight: 100;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  width: 200px;
+  left: 276px;
+  margin-top: -18px;
+  font-size: 2rem;
+}
+
+.two:hover {
+  filter: brightness(1);
+}
+
+.three {
+  height: 500px;
+  width: 753px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.sub-box {
+  height: 300px;
+  padding: 50px 0 50px 0;
+  margin: 50px 0 50px 0;
+  padding-right: 5px;
+  width: 241px;
+  display: inline-block;
+  border-top: 1px solid #666;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+  transform: translateX(-241px);
+}
+
+.showing {
+  opacity: 1;
+  transform: translateX(0px);
+}
+
+.footer {
+  text-align: center;
+  width: 100%;
+}
