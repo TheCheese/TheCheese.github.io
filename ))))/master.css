@@ -1,0 +1,50 @@
+/*Variable declaration */
+ :root {
+  --font:serif;
+  --text-color: #333;
+  --text-size: 1.2rem;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  font-family: var(--font);
+  -webkit-columns: #333;
+  columns: #333;
+}
+
+p {
+  font-size: var(--text-size);
+}
+
+ul {
+  text-decoration: none;
+  list-style: none;
+  padding: 0;
+  padding-left: 15px;
+}
+
+li {
+  display: inline-block;
+  margin: 0 10px 0 0;
+}
+
+.menuRow {
+  height: 10vh;
+  overflow: hidden;
+}
+
+.mainRow {
+  height: 80vh;
+  overflow-y: scroll;
+}
+
+.bottomRow {
+  height: 10vh;
+}
+.container {
+  height: 100vh !important;
+}
+
+.textModule {
+  padding-top: 5px;
+  animation: ease-in-out;
+}
