@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.ebay-description-wrapper {
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.ebay-description-wrapper  span {
+    font-weight: bold;
+}
+
+.banner {
+    max-width: fit-content;
+    margin: 0 auto;
+}
+
+
+.menu-bar {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+.menu-item {
+    display: inline-block;
+    text-align: center;
+
+    
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: #333333;
+    
+}
+
+.menu-item a:hover {
+    color: #056FB8;
+}
+
+.menu-item a p {
+    size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.main-video {
+    max-width: fit-content;
+    margin: 0 auto;
+    margin-top: 2em;
+    margin-bottom: 5em;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif; 
+}
+
+.ytvideo { margin:.5em auto  auto; max-width:960px; font-family:arial; text-align:center; position:relative; min-height:120px; background-color:#FFF; }
+.ytvideo .yt_hd { font-size:16px; width:100%; height:28px; line-height:28px; text-align:left; top:0; left:0; padding-left:10px; overflow:hidden; }
+.ytvideo a:after { content:"\A0\25BA"; position:absolute; width:60px; height:50px; left:0; top:0; right:0; bottom:0; margin:auto; border:0; border-radius:10px; color:white; background:rgba(0,0,0,.6); font-size:24px; line-height:50px; cursor:pointer; }
+.ytvideo a:hover:after { background:#CC181E; } 
+
+.main-video .ytvideo, .yt_hd,  .ytvideo a, .ytvideo a img{
+    max-height: 80vh;
+}
+
+#main-vid-desc {
+    margin-top: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.feature-bar {
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 7.5vh 0 7.5vh 0;
+}
+
+.bar-item {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+
+.bar-desc {
+    text-align: center;
+} 
+
+.bar-img, .bar-img img {
+    max-height: 100%;
+}
+
+.video-gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+}
+
+.kisa-video {
+    width: 30%;
+    height: auto;
+}
+
+.video-gallery .ytvideo a img{
+    max-height: 90%;
+    max-width: 80%;
+    border-radius: 5%;
+}
+
+.feature-list {
+    height: 80vh;
+    display: flex;
+    align-items: flex-start;
+    margin-top: 5em;
+}
+
+#features {
+    margin-top: 5em;
+    width: 100%;
+    text-align: center;
+}
+
+.left {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.left img {
+    max-height: 70vh;
+}
+
+.right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.right ul {
+    height: fit-content;
+}
+
+.right ul li {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 18px;
+    text-align: justify;
+}
+
+#payment {
+    width: 128px;
+}
+
+.paragraph {
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.paragraph p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 18px;
+    text-align: justify;
+    
+}
+
+#shop {
+    width: 100%;
+    margin: 5em 0 5em 0;
+    text-align: center;
+}
+
+.kisa-shop {
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 5em;
+}
+
+.kisa-shop-item {
+    border: 1px solid #727272;
+    border-radius: 4%;
+    width: 240px;
+    height: 135px; 
+    position: relative;
+}
+
+
+.kisa-shop-img img {
+    max-height: 135px;
+}
+
+.kisa-shop-name {
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.kisa-footer {
+    width: 100%;
+    background-color: #F4F4F4;
+    text-align: center;
+    height: 30vh;
+}
+
+.footer-top {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    height: 20vh;
+    align-items: center;
+}
+
+.footer-top img, .kisa-social img, .kisa-logo img, .kisa-logo {
+    height: fit-content;
+}
+
+.footer-bottom {
+
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif; 
+    color: #727272;
+}
